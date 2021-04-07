@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sign Up</title>
+</head>
+
+<body>
+  <main class="container">
+
+    <form class="input-field">
+      <label for="name">Full Name</label>
+      <input type="text" name="name" id="name" placeholder="Your Name">
+    </form>
+
+    <form class="input-field">
+      <label for="email">Email Address</label>
+      <input type="email" name="email" id="email" placeholder="Your Email">
+    </form>
+
+    <form class="input-field">
+      <label for="gender">Gender</label>
+      <div class="radio-btn">
+        <label for="male">
+          <input type="radio" name="gender" id="male" value="male">
+          <span class="mark"></span>
+          <span class="btn-border"></span>
+          Male
+        </label>
+
+        <label for="female">
+          <input type="radio" name="gender" id="female" value="female">
+          <span class="mark"></span>
+          <span class="btn-border"></span>
+          Female
+        </label>
+      </div>
+    </form>
+
+    <form class="input-field">
+      <label for="birth">Date of Birth</label>
+      <input type="date" name="birth" id="birth">
+    </form>
+
+    <form class="terms">
+      <input type="checkbox" name="terms" id="terms">
+      <label for="termes">I accept the terms and conditions.</label>
+    </form>
+
+    <input type="submit" value="Create Account">
+  </main>
+</body>
+
+</html>
